@@ -43,6 +43,9 @@ body{
     font-weight: 600;
     color: white;
 }
+.scroll-down{
+    font-size: 17px;
+}
 .mission-title{
     text-align: center;
     color: rgb(7, 7, 51);
@@ -135,4 +138,64 @@ body{
 }
 .community-text p{
     font-size: 20px;
+}
+footer{
+    background-color: black;
+    padding-top: 20px;
+}
+footer h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 35px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+span{
+    color: tomato;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.application{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.app-img{
+    width: 40%;
+    background-image: url(images/shape-9.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 170px 170px;
+    
+}
+.app-img img{
+    width: 40%;
+    display: block;
+    margin: 20%;
+    border-radius: 10px;
+    border: 10px solid orange;
+    
+}
+.app-text{
+    width: 40%;
+    margin-top: 40px;
+}
+.app-text h1{
+    margin: 0;
+    font-size: 30px;
+}
+.app-text p{
+    font-size: 20px;
+}
+.app-button{
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
